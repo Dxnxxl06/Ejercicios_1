@@ -11,8 +11,7 @@ def escribirDiario(mensaje):
         file.writelines(mensaje)
 
 menu='''
-       Menu
-
+      Fokin diario
        1. Leer diario
        2. Escribir una nueva Linea
        3. Salir
@@ -33,4 +32,4 @@ while True:
     elif opcion== 3:
         break
     else:
-        print('Opcion Invalida hdp')
+        print('Opcion Invalida')
